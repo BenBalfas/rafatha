@@ -1,0 +1,31 @@
+.rafatha {
+  text-decoration: none;
+  color: white;
+}
+
+.colored-section {
+  background-color: rgb(33, 37, 41);
+}
+
+.carousel-image {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.destination-highlight-revamp .ratio img.bg-img {
+  transition: 0.3s;
+}
+
+.destination-highlight-revamp .overlay-text {
+  background: transparent
+    linear-gradient(180deg, rgb(13 28 52 / 0) 0, rgb(13 28 52 / 50%) 100%) 0 0
+    no-repeat padding-box;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
