@@ -1,6 +1,5 @@
-.rafatha {
-  text-decoration: none;
-  color: white;
+.rotate {
+  transform: rotate(3deg);
 }
 
 .colored-section {
@@ -28,4 +27,8 @@
 
 .position-absolute {
   position: absolute !important;
+}
+
+.card-img {
+  width: 100%;
 }
