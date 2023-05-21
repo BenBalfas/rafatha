@@ -1,3 +1,11 @@
+#navigasi {
+  background-color: rgb(33, 37, 41);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
 .rotate {
   transform: rotate(3deg);
 }
