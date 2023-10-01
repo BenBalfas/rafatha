@@ -4,14 +4,14 @@ const testimonialsData = [
     email: "@Papa_Udi",
     rating: 5,
     review: "Pelayanan sangat baik.",
-    imageUrl: "/images/testimonial/1.JPG", // Tambahkan URL gambar di sini
+    imageUrl: "../images/testimonial/1.JPG", // Tambahkan URL gambar di sini
   },
   {
     name: "Raka hilal",
     email: "@rakahilal",
     rating: 4,
     review: "Pilihan mobil kurang banyak.",
-    imageUrl: "/images/testimonial/2.JPG", // Tambahkan URL gambar di sini
+    imageUrl: "../images/testimonial/2.JPG", // Tambahkan URL gambar di sini
   },
   // Tambahkan testimonial lain di sini
 ];
