@@ -1,0 +1,35 @@
+/* BREAKPOINTS */
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .margin-top {
+    margin-top: 6rem !important;
+  }
+
+  .bandara__title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .bandara__content {
+    display: block !important;
+  }
+  .bandara__content-img {
+    margin-left: 25%;
+    margin-bottom: 1.5rem;
+  }
+
+  #drop-off-bandara {
+    min-height: 95vh;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}
