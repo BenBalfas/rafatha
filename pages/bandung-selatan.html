@@ -10,8 +10,8 @@
       rel="stylesheet"
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous" />
-    <link rel="stylesheet" href="/css/bandung-selatan.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/bandung-selatan.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <nav id="navigasi">
@@ -87,122 +87,220 @@
     </nav>
     <section id="bandung-utara" class="margin-top">
       <div class="container">
-          <div class="pricing-header py-5 mt-5 pb-md-4 mx-auto text-center">
-            <h2 class="display-4 fw-normal text-body-emphasis">
-              Paket Bandung Selatan
-            </h2>
-            <p class="fs-5 text-body-secondary">Paket Wisata Eksklusif</p>
-          </div>
+        <div class="pricing-header py-5 mt-5 pb-md-4 mx-auto text-center">
+          <h2 class="display-4 fw-normal text-body-emphasis">
+            Paket Bandung Selatan
+          </h2>
+          <p class="fs-5 text-body-secondary">Paket Wisata Eksklusif</p>
+        </div>
 
-          <div class="row row-cols-1 row-cols-md-3 mb-3 justify-content-center text-center">
-            <div id="paketBS1" class="col">
-              <div class="card border-primary mb-4 rounded-3 shadow-sm">
-                <div class="card-header text-bg-primary border-light py-3">
-                  <h4 class="my-0 fw-normal">Paket Soreang</h4>
+        <div
+          class="row row-cols-1 row-cols-md-3 mb-3 justify-content-center text-center">
+          <div id="paketBS1" class="col">
+            <div class="card border-primary mb-4 rounded-3 shadow-sm">
+              <div class="card-header text-bg-primary border-light py-3">
+                <h4 class="my-0 fw-normal">Paket Soreang</h4>
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title pricing-card-title" id="totalPrice1">
+                  Rp. -,-
+                </h3>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>
+                    <a href="https://www.instagram.com/info_kawahrengganis/"
+                      >Kawah Rengganis</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/ranca_upas/"
+                      >Ranca upas</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/driamriverside/"
+                      >D’riam Riverside</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/barusenhillsofficial/"
+                      >Barusen Hill</a
+                    >
+                  </li>
+                </ul>
+                <div class="pilih-mobil w-75">
+                  <label for="chooseVehicle1">Pilih Kendaraan:</label>
+                  <select
+                    class="form-select mb-3"
+                    id="chooseVehicle1"
+                    onchange="updatePrice('1')">
+                    <option value="0" selected disabled>
+                      -- Pilih Kendaraan --
+                    </option>
+                    <option
+                      value="350000"
+                      data-harga="350000"
+                      data-nama="Agya"
+                      data-max-penumpang="4">
+                      Agya
+                    </option>
+                    <option
+                      value="400000"
+                      data-harga="400000"
+                      data-nama="Avanza"
+                      data-max-penumpang="7">
+                      Avanza
+                    </option>
+                    <option
+                      value="400000"
+                      data-harga="400000"
+                      data-nama="Mobilio"
+                      data-max-penumpang="7">
+                      Mobilio
+                    </option>
+                    <option
+                      value="500000"
+                      data-harga="500000"
+                      data-nama="Innova"
+                      data-max-penumpang="7">
+                      Innova
+                    </option>
+                    <option
+                      value="700000"
+                      data-harga="700000"
+                      data-nama="Innova Reborn"
+                      data-max-penumpang="7">
+                      Innova Reborn
+                    </option>
+                    <option
+                      value="1000000"
+                      data-harga="1000000"
+                      data-nama="Hi-Ace"
+                      data-max-penumpang="15">
+                      Hi-Ace
+                    </option>
+                  </select>
                 </div>
-                <div class="card-body text-center">
-                  <h3 class="card-title pricing-card-title" id="totalPrice1">Rp. -,-</h3>
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <li>
-                      <a href="https://www.instagram.com/info_kawahrengganis/"
-                        >Kawah Rengganis</a
-                      >
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/ranca_upas/"
-                        >Ranca upas</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/driamriverside/"
-                        >D’riam Riverside</a
-                      >
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/barusenhillsofficial/"
-                        >Barusen Hill</a
-                      >
-                    </li>
-                  </ul>
-                  <div class="pilih-mobil w-75">
-                    <label for="chooseVehicle1">Pilih Kendaraan:</label>
-                    <select class="form-select mb-3" id="chooseVehicle1" onchange="updatePrice('1')">
-                      <option value="0" selected disabled>-- Pilih Kendaraan --</option>
-                      <option value="350000" data-harga="350000" data-nama="Agya" data-max-penumpang="4">Agya</option>
-                      <option value="400000" data-harga="400000" data-nama="Avanza" data-max-penumpang="7">Avanza</option>
-                      <option value="400000" data-harga="400000" data-nama="Mobilio" data-max-penumpang="7">Mobilio</option>
-                      <option value="500000" data-harga="500000" data-nama="Innova" data-max-penumpang="7">Innova</option>
-                      <option value="700000" data-harga="700000" data-nama="Innova Reborn" data-max-penumpang="7">Innova Reborn</option>
-                      <option value="1000000" data-harga="1000000" data-nama="Hi-Ace" data-max-penumpang="15">Hi-Ace</option>
-                    </select>
-                  </div>
-                  <div class="penumpang w-75">
-                    <label for="choosePassengers1">Jumlah Penumpang:</label>
-                    <input type="number" class="form-control mb-3 text-center" id="choosePassengers1" min="1" value="1" onchange="updatePrice('1')">
-                  </div>
-                  <button
-                    type="button"
-                    class="w-100 btn btn-lg btn-outline-primary wa-button"
-                    id="wa-button1">
-                    Pilih paket
-                  </button>
+                <div class="penumpang w-75">
+                  <label for="choosePassengers1">Jumlah Penumpang:</label>
+                  <input
+                    type="number"
+                    class="form-control mb-3 text-center"
+                    id="choosePassengers1"
+                    min="1"
+                    value="1"
+                    onchange="updatePrice('1')" />
                 </div>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary wa-button"
+                  id="wa-button1">
+                  Pilih paket
+                </button>
               </div>
             </div>
-            <div id="paketBS2" class="col">
-              <div class="card border-primary mb-4 rounded-3 shadow-sm">
-                <div class="card-header text-bg-primary border-light py-3">
-                  <h4 class="my-0 fw-normal">Paket Ciwidey</h4>
+          </div>
+          <div id="paketBS2" class="col">
+            <div class="card border-primary mb-4 rounded-3 shadow-sm">
+              <div class="card-header text-bg-primary border-light py-3">
+                <h4 class="my-0 fw-normal">Paket Ciwidey</h4>
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title pricing-card-title" id="totalPrice2">
+                  Rp.525.000,-
+                </h3>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>
+                    <a href="https://www.instagram.com/kawahputih_official/"
+                      >Kawah putih</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/explore/tags/situpatenggang/"
+                      >Situ Patenggang</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/glamping_lakesiderancabali/"
+                      >Ranca bali</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/bukitjamurciwidey/"
+                      >Bukit Jamur</a
+                    >
+                  </li>
+                </ul>
+                <div class="pilih-mobil w-75">
+                  <label for="chooseVehicle2">Pilih Kendaraan:</label>
+                  <select
+                    class="form-select mb-3"
+                    id="chooseVehicle2"
+                    onchange="updatePrice('2')">
+                    <option value="0" selected disabled>
+                      -- Pilih Kendaraan --
+                    </option>
+                    <option
+                      value="350000"
+                      data-harga="350000"
+                      data-nama="Agya"
+                      data-max-penumpang="4">
+                      Agya
+                    </option>
+                    <option
+                      value="400000"
+                      data-harga="400000"
+                      data-nama="Avanza"
+                      data-max-penumpang="7">
+                      Avanza
+                    </option>
+                    <option
+                      value="400000"
+                      data-harga="400000"
+                      data-nama="Mobilio"
+                      data-max-penumpang="7">
+                      Mobilio
+                    </option>
+                    <option
+                      value="500000"
+                      data-harga="500000"
+                      data-nama="Innova"
+                      data-max-penumpang="7">
+                      Innova
+                    </option>
+                    <option
+                      value="700000"
+                      data-harga="700000"
+                      data-nama="Innova Reborn"
+                      data-max-penumpang="7">
+                      Innova Reborn
+                    </option>
+                    <option
+                      value="1000000"
+                      data-harga="1000000"
+                      data-nama="Hi-Ace"
+                      data-max-penumpang="15">
+                      Hi-Ace
+                    </option>
+                  </select>
                 </div>
-                <div class="card-body text-center">
-                  <h3 class="card-title pricing-card-title" id="totalPrice2">Rp.525.000,-</h3>
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <li>
-                      <a href="https://www.instagram.com/kawahputih_official/"
-                        >Kawah putih</a
-                      >
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/explore/tags/situpatenggang/"
-                        >Situ Patenggang</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/glamping_lakesiderancabali/"
-                        >Ranca bali</a
-                      >
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/bukitjamurciwidey/"
-                        >Bukit Jamur</a
-                      >
-                    </li>
-                  </ul>
-                  <div class="pilih-mobil w-75">
-                    <label for="chooseVehicle2">Pilih Kendaraan:</label>
-                    <select class="form-select mb-3" id="chooseVehicle2" onchange="updatePrice('2')">
-                      <option value="0" selected disabled>-- Pilih Kendaraan --</option>
-                      <option value="350000" data-harga="350000" data-nama="Agya" data-max-penumpang="4">Agya</option>
-                      <option value="400000" data-harga="400000" data-nama="Avanza" data-max-penumpang="7">Avanza</option>
-                      <option value="400000" data-harga="400000" data-nama="Mobilio" data-max-penumpang="7">Mobilio</option>
-                      <option value="500000" data-harga="500000" data-nama="Innova" data-max-penumpang="7">Innova</option>
-                      <option value="700000" data-harga="700000" data-nama="Innova Reborn" data-max-penumpang="7">Innova Reborn</option>
-                      <option value="1000000" data-harga="1000000" data-nama="Hi-Ace" data-max-penumpang="15">Hi-Ace</option>
-                    </select>
-                  </div>
-                  <div class="penumpang w-75">
-                    <label for="choosePassengers2">Jumlah Penumpang:</label>
-                    <input type="number" class="form-control mb-3 text-center" id="choosePassengers2" min="1" value="1" onchange="updatePrice('2')">
-                  </div>
-                  <button
-                    type="button"
-                    class="w-100 btn btn-lg btn-outline-primary wa-button"
-                    id="wa-button2">
-                    Pilih paket
-                  </button>
+                <div class="penumpang w-75">
+                  <label for="choosePassengers2">Jumlah Penumpang:</label>
+                  <input
+                    type="number"
+                    class="form-control mb-3 text-center"
+                    id="choosePassengers2"
+                    min="1"
+                    value="1"
+                    onchange="updatePrice('2')" />
                 </div>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary wa-button"
+                  id="wa-button2">
+                  Pilih paket
+                </button>
               </div>
             </div>
           </div>
@@ -211,9 +309,16 @@
     </section>
     <footer class="colored-section" id="footer">
       <div class="container">
-        <footer class="d-flex flex-wrap justify-content-center align-items-center py-5 mt-4">
-          <div class="col-md-4 d-flex align-items-center justify-content-center text-light text-center w-100">
-              © 2023 Rafatha Transport <span class="mx-2">|</span> Made with ❤️ by <span class="mx-2"><a href="https://www.instagram.com/wildan_dj/" class="copyright">wildan_dj</a></span>
+        <footer
+          class="d-flex flex-wrap justify-content-center align-items-center py-5 mt-4">
+          <div
+            class="col-md-4 d-flex align-items-center justify-content-center text-light text-center w-100">
+            © 2023 Rafatha Transport <span class="mx-2">|</span> Made with ❤️ by
+            <span class="mx-2"
+              ><a href="https://www.instagram.com/wildan_dj/" class="copyright"
+                >wildan_dj</a
+              ></span
+            >
           </div>
         </footer>
       </div>
@@ -245,7 +350,7 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
       integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
       crossorigin="anonymous"></script>
-    <script src="/app.js"></script>
-    <script src="/js/bandung-selatan.js"></script>
+    <script src="app.js"></script>
+    <script src="js/bandung-selatan.js"></script>
   </body>
 </html>
