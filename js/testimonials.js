@@ -13,6 +13,14 @@ const testimonialsData = [
     review: "Pilihan mobil kurang banyak.",
     imageUrl: "../images/testimonial/2.JPG", // Tambahkan URL gambar di sini
   },
+  {
+    name: "Reynaldi",
+    email: "feyi8406@gmail.com",
+    rating: 5,
+    review:
+      "Driver yang bernama Rifal sangat profesional, dan berhati-hati dalam mengemudikan mobil, sehingga saya dan keluarga merasa nyaman, rekomendasi sekali menggunakan jasanya, terima kasih..",
+    imageUrl: "../images/testimonial/default.jpg", // Tambahkan URL gambar di sini
+  },
   // Tambahkan testimonial lain di sini
 ];
 
